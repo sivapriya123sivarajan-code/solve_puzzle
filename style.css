@@ -1,0 +1,37 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+#puzzle-container {
+    width: 300px;
+    height: 300px;
+    border: 2px solid #333;
+    margin: 20px auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+}
+
+.puzzle-piece {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    text-align: center;
+    line-height: 100px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+#shuffle-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#message {
+    font-size: 18px;
+    color: green;
+}
